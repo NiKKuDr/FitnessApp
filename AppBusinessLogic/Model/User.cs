@@ -7,7 +7,7 @@ namespace AppBusinessLogic.Model
     /// <summary>
     /// User
     /// </summary>
-    class User
+    public class User
     {
         #region Properties hidden by #region
         /// <summary>
