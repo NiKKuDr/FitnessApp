@@ -6,7 +6,8 @@ namespace AppBusinessLogic.Model
 {
     /// <summary>
     /// Gender
-    /// </summary>
+    /// </summary>\
+    [Serializable]
     public class Gender
     {
         /// <summary>

@@ -7,6 +7,7 @@ namespace AppBusinessLogic.Model
     /// <summary>
     /// User
     /// </summary>
+    [Serializable]
     public class User
     {
         #region Properties hidden by #region
@@ -77,6 +78,7 @@ namespace AppBusinessLogic.Model
             Weight = weight;
             Height = height;
         }
+
 
         // Redefining "ToString"
         public override string ToString()
